@@ -11,14 +11,14 @@
 			$this -> bdd = new BDD();
 		}
 
-		public function afficherPage($mapage, $question, $compt) {
+		public function afficherPage($mapage, $question, $compt, $categorie) {
 			if(!$this -> bdd -> connexion()) {//Connexion à la BDD
 				echo "Une erreur est survenue à la connexion";
 				return;
 			}
 			
 			if($mapage == 1) $this -> page1();
-			else if($mapage == 2) $this -> page2($question, $compt);
+			else if($mapage == 2) $this -> page2($question, $compt, $categorie);
 			else if($mapage == 3) $this -> page3($question);
 			else $this -> page1();
 			
@@ -39,8 +39,8 @@
 			echo $vue -> getSortie();
 		}
 		
-		public function page2($id_question, $compteur) {
-			if ($this -> bdd -> getQuestion($id_question) == null){
+		public function page2($id_question, $compteur, $categorie) {
+			if ($this -> bdd -> getQuestion2($id_question, $categorie) == null){
 				$this -> page3("sur l'histoire", $compteur);
 				exit;
 			}
@@ -58,7 +58,7 @@
 				}
 			}
 
-			$question = $this -> bdd -> getQuestion($id_question);		//On récupère les données de la question
+			$question = $this -> bdd -> getQuestion2($id_question, $categorie);		//On récupère les données de la question
 			$reponses = $this -> bdd -> getReponses($id_question);		//On récupère les réponses de la question
 			
 				//On insère le titre de la question à la place de #TITRE_QUESTION#
