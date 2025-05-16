@@ -55,6 +55,33 @@ class BDD {
 		
 		return $question;		//On retourne les réponses de la question
 	}
+
+	public function getQuestion2($question_id, $categorie) {
+		$question = null;	//Servira a stocker la question
+
+		/* On crée la requete SQL et on lie les paramètres */
+		$requete = $this -> mysqli-> prepare("SELECT Question.Id_Question, Intitule_Question, Multiple FROM Question INNER JOIN question_categorie ON Question.Id_Question = question_categorie.Id_Question INNER JOIN Categorie ON question_categorie.Id_Categorie = Categorie.Id_Categorie WHERE Ordre = ? AND Categorie.Id_Categorie = ?");
+		if (!$requete) {
+    		return $question;
+		}
+		else{
+			$requete -> bind_param('ii', $question_id, $categorie);
+		
+			/* On execute la requete et on récupère le résultat */
+			$requete -> execute();
+			$resultat = $requete -> get_result();
+		
+			/* On libère la requête */
+			$requete -> close();
+			
+			/* On parcours les résultats pour les stocker */
+			if($enregistrement = $resultat -> fetch_object()) {
+				$question = $enregistrement;	//On ajoute un element avec un l'id et l'intitule à la suite de nos réponses
+			}	
+		}
+		
+		return $question;		//On retourne les réponses de la question
+	}
 	
 	
 	/* Récupération des réponses d'une question en utilisant l'id de la question */
