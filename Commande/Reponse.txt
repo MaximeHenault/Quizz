@@ -1,0 +1,479 @@
+-- Q1 : En quelle année a eu lieu la Révolution française ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('1789', TRUE, 1),
+('1815', FALSE, 1),
+('1776', FALSE, 1);
+
+-- Q2 : Qui fut le premier président des États-Unis ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('George Washington', TRUE, 2),
+('Abraham Lincoln', FALSE, 2),
+('Thomas Jefferson', FALSE, 2);
+
+-- Q3 : Quel empire domina la Méditerranée pendant l’Antiquité ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Empire romain', TRUE, 3),
+('Empire ottoman', FALSE, 3),
+('Empire byzantin', FALSE, 3);
+
+-- Q4 : Quelle était la capitale des Aztèques ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Tenochtitlan', TRUE, 4),
+('Cuzco', FALSE, 4),
+('Mexico', FALSE, 4);
+
+-- Q5 : Qui était roi de France pendant la Révolution ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Louis XVI', TRUE, 5),
+('Louis XIV', FALSE, 5),
+('Napoléon Bonaparte', FALSE, 5);
+
+-- Q6 : Quel événement déclencha la Première Guerre mondiale ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('L\'assassinat de l\'archiduc François-Ferdinand', TRUE, 6),
+('La chute du mur de Berlin', FALSE, 6),
+('La bataille de Verdun', FALSE, 6);
+
+-- Q7 : Qui a découvert l’Amérique en 1492 ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Christophe Colomb', TRUE, 7),
+('Vasco de Gama', FALSE, 7),
+('Fernand de Magellan', FALSE, 7);
+
+-- Q8 : En quelle année est tombé l’Empire romain d’Occident ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('476 après J.-C.', TRUE, 8),
+('1453', FALSE, 8),
+('800', FALSE, 8);
+
+-- Q9 : Quel traité mit fin à la Première Guerre mondiale ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Traité de Versailles', TRUE, 9),
+('Traité de Tordesillas', FALSE, 9),
+('Traité de Rome', FALSE, 9);
+
+-- Q10 : Qui dirigeait l’Allemagne nazie ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Adolf Hitler', TRUE, 10),
+('Joseph Staline', FALSE, 10),
+('Benito Mussolini', FALSE, 10);
+
+-- Q11 : Quelle est la planète la plus proche du Soleil ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Mercure', TRUE, 11),
+('Vénus', FALSE, 11),
+('Mars', FALSE, 11);
+
+-- Q12 : Quel organe pompe le sang dans le corps humain ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Le cœur', TRUE, 12),
+('Le foie', FALSE, 12),
+('Les poumons', FALSE, 12);
+
+-- Q13 : Quelle particule possède une charge négative ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Électron', TRUE, 13),
+('Proton', FALSE, 13),
+('Neutron', FALSE, 13);
+
+-- Q14 : Quelle est l’unité de mesure de l’intensité électrique ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Ampère', TRUE, 14),
+('Volt', FALSE, 14),
+('Ohm', FALSE, 14);
+
+-- Q15 : Quel gaz est essentiel à la respiration humaine ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Oxygène', TRUE, 15),
+('Dioxyde de carbone', FALSE, 15),
+('Azote', FALSE, 15);
+
+-- Q16 : Quelle est la formule chimique de l’eau ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('H2O', TRUE, 16),
+('CO2', FALSE, 16),
+('NaCl', FALSE, 16);
+
+-- Q17 : Combien de chromosomes possède l’être humain ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('23', TRUE, 17),
+('22', FALSE, 17),
+('24', FALSE, 17);
+
+-- Q18 : Qui a développé la théorie de la relativité ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Albert Einstein', TRUE, 18),
+('Isaac Newton', FALSE, 18),
+('Galileo Galilei', FALSE, 18);
+
+-- Q19 : Quel est l’état de l’eau à température ambiante ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Liquide', TRUE, 19),
+('Plasma', FALSE, 19),
+('Gel', FALSE, 19);
+
+-- Q20 : Quelle est la plus grosse planète du système solaire ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Jupiter', TRUE, 20),
+('Saturne', FALSE, 20),
+('Neptune', FALSE, 20);
+
+-- Q21 : Inception
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Christopher Nolan', TRUE, 21),
+('Steven Spielberg', FALSE, 21),
+('James Cameron', FALSE, 21);
+
+-- Q22 : Jack Dawson
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Titanic', TRUE, 22),
+('Avatar', FALSE, 22),
+('The Great Gatsby', FALSE, 22);
+
+-- Q23 : Oscar 1994
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Forrest Gump', TRUE, 23),
+('Pulp Fiction', FALSE, 23),
+('Les Évadés', FALSE, 23);
+
+-- Q24 : Hermione
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Emma Watson', TRUE, 24),
+('Emma Stone', FALSE, 24),
+('Natalie Portman', FALSE, 24);
+
+-- Q25 : 1er film Disney
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Blanche-Neige et les Sept Nains', TRUE, 25),
+('Cendrillon', FALSE, 25),
+('Bambi', FALSE, 25);
+
+-- Q26 : Joker
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Heath Ledger', TRUE, 26),
+('Joaquin Phoenix', FALSE, 26),
+('Jared Leto', FALSE, 26);
+
+-- Q27 : Parasite
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Corée du Sud', TRUE, 27),
+('Japon', FALSE, 27),
+('Chine', FALSE, 27);
+
+-- Q28 : Star Wars
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Star Wars', TRUE, 28),
+('Star Trek', FALSE, 28),
+('Interstellar', FALSE, 28);
+
+-- Q29 : Tarantino
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Quentin Tarantino', TRUE, 29),
+('Martin Scorsese', FALSE, 29),
+('Francis Ford Coppola', FALSE, 29);
+
+-- Q30 : Trilogie SDA
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('3', TRUE, 30),
+('2', FALSE, 30),
+('4', FALSE, 30);
+
+-- Q31 : Quel langage est principalement utilisé pour le développement web côté client ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('JavaScript', TRUE, 31),
+('Python', FALSE, 31),
+('C++', FALSE, 31);
+
+-- Q32 : Quel système d’exploitation est basé sur le noyau Linux ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Ubuntu', TRUE, 32),
+('Windows', FALSE, 32),
+('macOS', FALSE, 32);
+
+-- Q33 : Que signifie "HTML" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('HyperText Markup Language', TRUE, 33),
+('HighText Machine Language', FALSE, 33),
+('HyperTool Markup Language', FALSE, 33);
+
+-- Q34 : Quel est l’acronyme de l’unité centrale d’un ordinateur ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('CPU', TRUE, 34),
+('GPU', FALSE, 34),
+('USB', FALSE, 34);
+
+-- Q35 : À quoi sert un pare-feu (firewall) ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('À bloquer les connexions non autorisées', TRUE, 35),
+('À améliorer la vitesse du disque dur', FALSE, 35),
+('À compiler du code', FALSE, 35);
+
+-- Q36 : Quel langage est principalement utilisé pour le développement d’applications Android natives ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Kotlin', TRUE, 36),
+('Swift', FALSE, 36),
+('PHP', FALSE, 36);
+
+-- Q37 : Que fait une boucle "for" en programmation ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Elle répète un bloc d’instructions un nombre défini de fois', TRUE, 37),
+('Elle déclare une fonction', FALSE, 37),
+('Elle arrête l’exécution du programme', FALSE, 37);
+
+-- Q38 : Quelle base de données est relationnelle ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('PostgreSQL', TRUE, 38),
+('MongoDB', FALSE, 38),
+('Redis', FALSE, 38);
+
+-- Q39 : Que signifie CSS ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Cascading Style Sheets', TRUE, 39),
+('Computer System Structure', FALSE, 39),
+('Creative Style Syntax', FALSE, 39);
+
+-- Q40 : Quel protocole est utilisé pour sécuriser les sites web ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('HTTPS', TRUE, 40),
+('FTP', FALSE, 40),
+('HTTP', FALSE, 40);
+
+-- Question 41 : Qui a écrit "Les Misérables" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Victor Hugo', TRUE, 41),
+('Émile Zola', FALSE, 41),
+('Gustave Flaubert', FALSE, 41);
+
+-- Question 42 : Quel roman commence par la phrase "Longtemps, je me suis couché de bonne heure" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Du côté de chez Swann', TRUE, 42),
+('Madame Bovary', FALSE, 42),
+('À l’ombre des jeunes filles en fleurs', FALSE, 42);
+
+-- Question 43 : Quel auteur est connu pour son œuvre "Le Petit Prince" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Antoine de Saint-Exupéry', TRUE, 43),
+('Jean de La Fontaine', FALSE, 43),
+('Marcel Proust', FALSE, 43);
+
+-- Question 44 : Quel est le nom du célèbre détective créé par Arthur Conan Doyle ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Sherlock Holmes', TRUE, 44),
+('Hercule Poirot', FALSE, 44),
+('Maigret', FALSE, 44);
+
+-- Question 45 : Dans quelle pièce de théâtre trouve-t-on le personnage d’Hamlet ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Hamlet', TRUE, 45),
+('Macbeth', FALSE, 45),
+('Othello', FALSE, 45);
+
+-- Question 46 : Qui a écrit "L’Étranger" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Albert Camus', TRUE, 46),
+('Jean-Paul Sartre', FALSE, 46),
+('André Gide', FALSE, 46);
+
+-- Question 47 : Quel écrivain est l’auteur de la saga "Harry Potter" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('J.K. Rowling', TRUE, 47),
+('Stephen King', FALSE, 47),
+('Philip Pullman', FALSE, 47);
+
+-- Question 48 : Quel est le genre littéraire de "1984" de George Orwell ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Science-fiction dystopique', TRUE, 48),
+('Roman historique', FALSE, 48),
+('Comédie romantique', FALSE, 48);
+
+-- Question 49 : Quel poète a écrit "Le Bateau Ivre" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Arthur Rimbaud', TRUE, 49),
+('Paul Verlaine', FALSE, 49),
+('Charles Baudelaire', FALSE, 49);
+
+-- Question 50 : Dans quel roman trouve-t-on le personnage de Jean Valjean ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Les Misérables', TRUE, 50),
+('Notre-Dame de Paris', FALSE, 50),
+('Le Rouge et le Noir', FALSE, 50);
+
+-- Question 51 : Quelle est la capitale de la France ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Paris', TRUE, 51),
+('Lyon', FALSE, 51),
+('Marseille', FALSE, 51);
+
+-- Question 52 : Quel est le plus grand océan du monde ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Océan Pacifique', TRUE, 52),
+('Océan Atlantique', FALSE, 52),
+('Océan Indien', FALSE, 52);
+
+-- Question 53 : Quel est le pays le plus peuplé au monde ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Chine', TRUE, 53),
+('Inde', FALSE, 53),
+('États-Unis', FALSE, 53);
+
+-- Question 54 : Quel est le plus grand désert du monde ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Désert de l’Antarctique', TRUE, 54),
+('Désert du Sahara', FALSE, 54),
+('Désert de Gobi', FALSE, 54);
+
+-- Question 55 : Quelle rivière traverse Paris ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('La Seine', TRUE, 55),
+('Le Rhône', FALSE, 55),
+('La Loire', FALSE, 55);
+
+-- Question 56 : Quelle chaîne de montagnes traverse la frontière entre la France et l’Espagne ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Les Pyrénées', TRUE, 56),
+('Les Alpes', FALSE, 56),
+('Le Jura', FALSE, 56);
+
+-- Question 57 : Quel pays est connu sous le nom de "Terre de feu" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Argentine', TRUE, 57),
+('Chili', FALSE, 57),
+('Brésil', FALSE, 57);
+
+-- Question 58 : Quel est le plus haut sommet du monde ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Mont Everest', TRUE, 58),
+('K2', FALSE, 58),
+('Kangchenjunga', FALSE, 58);
+
+-- Question 59 : Quel est le plus grand pays du monde en superficie ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Russie', TRUE, 59),
+('Canada', FALSE, 59),
+('États-Unis', FALSE, 59);
+
+-- Question 60 : Sur quel continent se trouve le pays du Kenya ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Afrique', TRUE, 60),
+('Asie', FALSE, 60),
+('Amérique', FALSE, 60);
+
+-- Question 61 : Qui a composé la symphonie n°9 en ré mineur ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Ludwig van Beethoven', TRUE, 61),
+('Wolfgang Amadeus Mozart', FALSE, 61),
+('Johann Sebastian Bach', FALSE, 61);
+
+-- Question 62 : Quel est le groupe qui a chanté "Bohemian Rhapsody" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Queen', TRUE, 62),
+('The Beatles', FALSE, 62),
+('Led Zeppelin', FALSE, 62);
+
+-- Question 63 : Quel instrument est utilisé pour jouer du violon ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Archet', TRUE, 63),
+('Piano', FALSE, 63),
+('Guitare', FALSE, 63);
+
+-- Question 64 : Quel compositeur a écrit "Le Lac des Cygnes" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Piotr Ilitch Tchaïkovski', TRUE, 64),
+('Claude Debussy', FALSE, 64),
+('Frédéric Chopin', FALSE, 64);
+
+-- Question 65 : Qui est l’auteur de l’album "Thriller" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Michael Jackson', TRUE, 65),
+('Elvis Presley', FALSE, 65),
+('Prince', FALSE, 65);
+
+-- Question 66 : Quel est le genre musical de Mozart ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Classique', TRUE, 66),
+('Jazz', FALSE, 66),
+('Pop', FALSE, 66);
+
+-- Question 67 : Quel est l’instrument principal du jazz ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Saxophone', TRUE, 67),
+('Piano', FALSE, 67),
+('Batterie', FALSE, 67);
+
+-- Question 68 : Quel est le nom du festival de musique qui a lieu chaque année à Coachella Valley en Californie ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Coachella', TRUE, 68),
+('Lollapalooza', FALSE, 68),
+('Glastonbury', FALSE, 68);
+
+-- Question 69 : Quel est le chanteur qui a interprété "Like a Rolling Stone" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Bob Dylan', TRUE, 69),
+('Bruce Springsteen', FALSE, 69),
+('David Bowie', FALSE, 69);
+
+-- Question 70 : Quelle est la chanson la plus écoutée de tous les temps sur Spotify ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Shape of You', TRUE, 70),
+('Blinding Lights', FALSE, 70),
+('Despacito', FALSE, 70);
+
+-- Question 71 : Quel est le personnage principal de la série "The Legend of Zelda" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Link', TRUE, 71),
+('Zelda', FALSE, 71),
+('Ganondorf', FALSE, 71);
+
+-- Question 72 : Dans quel jeu vidéo le personnage de Mario fait-il sa première apparition ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Donkey Kong', TRUE, 72),
+('Super Mario Bros', FALSE, 72),
+('Mario Kart', FALSE, 72);
+
+-- Question 73 : Quel est le jeu le plus vendu de tous les temps ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Minecraft', TRUE, 73),
+('Tetris', FALSE, 73),
+('Grand Theft Auto V', FALSE, 73);
+
+-- Question 74 : Quel est le développeur de la série "The Elder Scrolls" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Bethesda Game Studios', TRUE, 74),
+('Ubisoft', FALSE, 74),
+('Square Enix', FALSE, 74);
+
+-- Question 75 : Dans quel jeu vidéo incarne-t-on un personnage nommé Nathan Drake ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Uncharted', TRUE, 75),
+('Tomb Raider', FALSE, 75),
+('Assassin\'s Creed', FALSE, 75);
+
+-- Question 76 : Quel est le nom du protagoniste de la série "Half-Life" ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Gordon Freeman', TRUE, 76),
+('Alyx Vance', FALSE, 76),
+('Eli Vance', FALSE, 76);
+
+-- Question 77 : Dans quel jeu vidéo peut-on jouer avec des Pokémon ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Pokémon', TRUE, 77),
+('Digimon', FALSE, 77),
+('Yu-Gi-Oh!', FALSE, 77);
+
+-- Question 78 : Quel est le nom du jeu vidéo qui met en scène des constructions à base de blocs ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Minecraft', TRUE, 78),
+('Terraria', FALSE, 78),
+('Fortnite', FALSE, 78);
+
+-- Question 79 : Quel est le nom du jeu de rôle en ligne massivement multijoueur (MMORPG) très populaire, développé par Blizzard Entertainment ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('World of Warcraft', TRUE, 79),
+('Starcraft', FALSE, 79),
+('Diablo', FALSE, 79);
+
+-- Question 80 : Quel est le jeu de stratégie en temps réel créé par Blizzard Entertainment, où des joueurs s'affrontent en ligne ?
+INSERT INTO Reponse (Intitule_Reponse, Bonne_Reponse, Id_Question) VALUES
+('Starcraft', TRUE, 80),
+('Warcraft', FALSE, 80),
+('Command & Conquer', FALSE, 80);
