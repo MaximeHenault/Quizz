@@ -1,0 +1,15 @@
+INSERT INTO Quizz (Id_Quizz, Nom) VALUES (1, 'Quizz Histoire');
+INSERT INTO Quizz (Id_Quizz, Nom) VALUES (2, 'Quizz Sciences');
+INSERT INTO Quizz (Id_Quizz, Nom) VALUES (3, 'Quizz Cinéma');
+INSERT INTO Quizz (Id_Quizz, Nom) VALUES (4, 'Quizz Informatique');
+INSERT INTO Quizz (Id_Quizz, Nom) VALUES (5, 'Quizz Littérature');
+INSERT INTO Quizz (Id_Quizz, Nom) VALUES (6, 'Quizz Géographie');
+INSERT INTO Quizz (Id_Quizz, Nom) VALUES (7, 'Quizz Musique');
+INSERT INTO Quizz (Id_Quizz, Nom) VALUES (8, 'Quizz Jeux vidéo');
+
+| Categorie          |
+| Question           |
+| Quizz              |
+| Reponse            |
+| question_categorie |
+| quizz_question
