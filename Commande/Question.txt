@@ -1,0 +1,98 @@
+INSERT INTO Question (Intitule_Question, Multiple, Difficulte) VALUES 
+('En quelle année a débuté la Révolution française ?', FALSE, 1),
+('Qui a été le premier président des États-Unis ?', FALSE, 3),
+('Quel empire a construit le Colisée ?', FALSE, 1),
+('Quelle était la capitale de l''Empire aztèque ?', FALSE, 3),
+('Quel roi a été guillotiné pendant la Révolution française ?', FALSE, 1),
+('Quel événement a déclenché la Première Guerre mondiale ?', FALSE, 2),
+('Qui a découvert l''Amérique en 1492 ?', FALSE, 1),
+('Quand a eu lieu la chute de l''Empire romain d''Occident ?', FALSE, 1),
+('Quel traité a mis fin à la Première Guerre mondiale ?', FALSE, 3),
+('Qui était le chef de l''Allemagne nazie ?', FALSE, 2);
+
+INSERT INTO Question (Intitule_Question, Multiple, Difficulte) VALUES 
+('Quelle planète est la plus proche du Soleil ?', FALSE, 1),
+('Quel est l''organe principal du système circulatoire ?', FALSE, 3),
+('Quelle particule a une charge négative ?', FALSE, 1),
+('Quelle est l’unité de mesure de l’intensité électrique ?', FALSE, 3),
+('Quel gaz est essentiel à la respiration humaine ?', FALSE, 1),
+('Quelle est la formule chimique de l’eau ?', FALSE, 2),
+('Combien de paires de chromosomes un humain possède-t-il normalement ?', FALSE, 1),
+('Quel scientifique a formulé la théorie de la relativité ?', FALSE, 1),
+('Quel est l''état de la matière entre solide et gazeux ?', FALSE, 3),
+('Quelle est la planète la plus massive du système solaire ?', FALSE, 2);
+
+
+INSERT INTO Question (Intitule_Question, Multiple, Difficulte) VALUES
+('Qui a réalisé le film "Inception" ?', FALSE, 2),
+('Dans quel film trouve-t-on le personnage de Jack Dawson ?', FALSE, 1),
+('Quel film a remporté l’Oscar du meilleur film en 1994 ?', FALSE, 3),
+('Quelle actrice joue Hermione Granger dans Harry Potter ?', FALSE, 1),
+('Quel est le premier long métrage d’animation de Disney ?', FALSE, 2),
+('Qui interprète le Joker dans The Dark Knight ?', FALSE, 2),
+('Dans quel pays se déroule le film Parasite ?', FALSE, 2),
+('Quel film commence par "A long time ago in a galaxy far, far away..." ?', FALSE, 1),
+('Quel réalisateur est connu pour ses films comme Pulp Fiction et Kill Bill ?', FALSE, 2),
+('Combien de films composent la trilogie Le Seigneur des Anneaux ?', FALSE, 1);
+
+INSERT INTO Question (Intitule_Question, Multiple, Difficulte) VALUES
+('Quel langage est principalement utilisé pour le développement web côté client ?', FALSE, 2),
+('Quel système d’exploitation est basé sur le noyau Linux ?', FALSE, 2),
+('Que signifie "HTML" ?', FALSE, 2),
+('Quel est l’acronyme de l’unité centrale d’un ordinateur ?', FALSE, 1),
+('À quoi sert un pare-feu (firewall) ?', FALSE, 2),
+('Quel langage est principalement utilisé pour le développement d’applications Android natives ?', FALSE, 3),
+('Que fait une boucle "for" en programmation ?', FALSE, 2),
+('Quelle base de données est relationnelle ?', FALSE, 2),
+('Que signifie CSS ?', FALSE, 2),
+('Quel protocole est utilisé pour sécuriser les sites web ?', FALSE, 1);
+
+INSERT INTO Question (Intitule_Question, Multiple, Difficulte) VALUES
+('Qui a écrit "Les Misérables" ?', FALSE, 1),
+('Quel roman commence par la phrase "Longtemps, je me suis couché de bonne heure" ?', FALSE, 3),
+('Quel auteur est connu pour son œuvre "Le Petit Prince" ?', FALSE, 1),
+('Quel est le nom du célèbre détective créé par Arthur Conan Doyle ?', FALSE, 1),
+('Dans quelle pièce de théâtre trouve-t-on le personnage d’Hamlet ?', FALSE, 2),
+('Qui a écrit "L’Étranger" ?', FALSE, 2),
+('Quel écrivain est l’auteur de la saga "Harry Potter" ?', FALSE, 1),
+('Quel est le genre littéraire de "1984" de George Orwell ?', FALSE, 2),
+('Quel poète a écrit "Le Bateau Ivre" ?', FALSE, 3),
+('Dans quel roman trouve-t-on le personnage de Jean Valjean ?', FALSE, 1);
+
+INSERT INTO Question (Intitule_Question, Multiple, Difficulte) VALUES
+('Quelle est la capitale de la France ?', FALSE, 1),
+('Quel est le plus grand océan du monde ?', FALSE, 2),
+('Quel est le pays le plus peuplé au monde ?', FALSE, 1),
+('Quel est le plus grand désert du monde ?', FALSE, 2),
+('Quelle rivière traverse Paris ?', FALSE, 1),
+('Quelle chaîne de montagnes traverse la frontière entre la France et l’Espagne ?', FALSE, 2),
+('Quel pays est connu sous le nom de "Terre de feu" ?', FALSE, 3),
+('Quel est le plus haut sommet du monde ?', FALSE, 1),
+('Quel est le plus grand pays du monde en superficie ?', FALSE, 1),
+('Sur quel continent se trouve le pays du Kenya ?', FALSE, 1);
+
+INSERT INTO Question (Intitule_Question, Multiple, Difficulte) VALUES
+('Qui a composé la symphonie n°9 en ré mineur ?', FALSE, 1),
+('Quel est le groupe qui a chanté "Bohemian Rhapsody" ?', FALSE, 1),
+('Quel instrument est utilisé pour jouer du violon ?', FALSE, 1),
+('Quel compositeur a écrit "Le Lac des Cygnes" ?', FALSE, 2),
+('Qui est l’auteur de l’album "Thriller" ?', FALSE, 1),
+('Quel est le genre musical de Mozart ?', FALSE, 2),
+('Quel est l’instrument principal du jazz ?', FALSE, 2),
+('Quel est le nom du festival de musique qui a lieu chaque année à Coachella Valley en Californie ?', FALSE, 1),
+('Quel est le chanteur qui a interprété "Like a Rolling Stone" ?', FALSE, 1),
+('Quelle est la chanson la plus écoutée de tous les temps sur Spotify ?', FALSE, 1);
+
+INSERT INTO Question (Intitule_Question, Multiple, Difficulte) VALUES
+('Quel est le personnage principal de la série : The Legend of Zelda ?', FALSE, 1),
+('Dans quel jeu vidéo le personnage de Mario fait-il sa première apparition ?', FALSE, 1),
+('Quel est le jeu le plus vendu de tous les temps ?', FALSE, 1),
+('Quel est le développeur de la série "The Elder Scrolls" ?', FALSE, 2),
+('Dans quel jeu vidéo incarne-t-on un personnage nommé Nathan Drake ?', FALSE, 1),
+('Quel est le nom du protagoniste de la série : "Half-Life" ?', FALSE, 2),
+('Dans quel jeu vidéo peut-on jouer avec des Pokémon ?', FALSE, 1),
+('Quel est le nom du jeu vidéo qui met en scène des constructions à base de blocs ?', FALSE, 1),
+('Quel est le nom du jeu de rôle en ligne massivement multijoueur (MMORPG) très populaire, développé par Blizzard Entertainment ?', FALSE, 2),
+('Quel est le jeu de stratégie en temps réel créé par Blizzard Entertainment, où des joueurs s\'affrontent en ligne ?', FALSE, 2);
+
+
