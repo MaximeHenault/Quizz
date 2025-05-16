@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template/question.css">
+    <title>QuizzzZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ</title>
+</head>
+
+<body>
+    <header>
+        <p>Bienvenue sur le Quizz</p>
+    </header>
+    <nav>
+        <div id = "box">
+            <h1>#TITRE_QUESTION#</h1>
+        
+        <form method="post">
+                    <ul>
+                        <li id = "reponse1"><input  type="#TYPE_REPONSE#" name = "reponse" value = "#ID1#">#Reponse1#</li>
+                        <li id = "reponse2"><input  type="#TYPE_REPONSE#" name = "reponse" value = "#ID2#">#Reponse2#</li>
+                        <li id = "reponse3"><input  type="#TYPE_REPONSE#" name = "reponse" value = "#ID3#">#Reponse3#</li>    
+                    </ul>
+        </div>
+        <br>
+        <br>
+        <h2>#RESULTAT#</h2>
+        <h2>Nombre de bonnes réponses : #BONNEREPONSE#</h2>
+            <button id = "Valider">Valider</button>
+        </form>
+        <br>
+        <button onclick = "location.href = '../?page=2&compt=#COMPT#&question=#QUESTION#'">Question suivante</button>
+        <br>
+        <button onclick = "location.href = '../?page=1'">Revenir à l'acceuil</button>
+
+        <div id="resultat">
+            
+        </div>
+    </nav>
+    <footer>
+        <p>Pour plus de quizz :<a href = https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/hameconnage-phishing id = "lien"> QuizzDeFou.fr</a><p>
+    </footer>
+</body>
+</html>
