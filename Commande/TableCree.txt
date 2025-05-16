@@ -1,0 +1,44 @@
+CREATE TABLE Quizz(
+   Id_Quizz INT AUTO_INCREMENT,
+   Nom VARCHAR(255),
+   PRIMARY KEY(Id_Quizz)
+);
+
+CREATE TABLE Question(
+   Id_Question INT AUTO_INCREMENT,
+   Intitule_Question TEXT,
+   Multiple TINYINT(1), 
+   Difficulte INT,
+   PRIMARY KEY(Id_Question)
+);
+
+CREATE TABLE Reponse(
+   Id_Reponse INT AUTO_INCREMENT,
+   Intitule_Reponse TEXT, 
+   Bonne_Reponse TINYINT(1),  
+   Id_Question INT NOT NULL,
+   PRIMARY KEY(Id_Reponse),
+   FOREIGN KEY(Id_Question) REFERENCES Question(Id_Question)
+);
+
+CREATE TABLE Categorie(
+   Id_Categorie INT AUTO_INCREMENT,
+   Libelle_Categorie VARCHAR(255),
+   PRIMARY KEY(Id_Categorie)
+);
+
+CREATE TABLE quizz_question(
+   Id_Quizz INT,
+   Id_Question INT,
+   PRIMARY KEY(Id_Quizz, Id_Question),
+   FOREIGN KEY(Id_Quizz) REFERENCES Quizz(Id_Quizz),
+   FOREIGN KEY(Id_Question) REFERENCES Question(Id_Question)
+);
+
+CREATE TABLE question_categorie(
+   Id_Question INT,
+   Id_Categorie INT,
+   PRIMARY KEY(Id_Question, Id_Categorie),
+   FOREIGN KEY(Id_Question) REFERENCES Question(Id_Question),
+   FOREIGN KEY(Id_Categorie) REFERENCES Categorie(Id_Categorie)
+);
