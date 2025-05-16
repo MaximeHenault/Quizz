@@ -1,0 +1,8 @@
+INSERT INTO Categorie (Libelle_Categorie) VALUES ('Histoire');
+INSERT INTO Categorie (Libelle_Categorie) VALUES ('Sciences');
+INSERT INTO Categorie (Libelle_Categorie) VALUES ('Cinéma');
+INSERT INTO Categorie (Libelle_Categorie) VALUES ('Informatique');
+INSERT INTO Categorie (Libelle_Categorie) VALUES ('Littérature');
+INSERT INTO Categorie (Libelle_Categorie) VALUES ('Géographie');
+INSERT INTO Categorie (Libelle_Categorie) VALUES ('Musique');
+INSERT INTO Categorie (Libelle_Categorie) VALUES ('Jeux vidéo');
